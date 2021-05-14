@@ -1,0 +1,30 @@
+/* 
+Max Scott
+
+finds machine epsilon (smallest number that a double can hould)
+*/
+
+
+
+
+public class ebsilon{
+    public static void main(String[] args){
+        double num = findEb();
+        final double ebsilon = num;
+        System.out.println(1+ebsilon);
+    }
+        // finds machine epsilon
+    public static double findEb(){
+        int count =0;
+        double num = 0.1;
+            // add more 0's after the desimal untill you can't 
+                //and return the number of iterations 
+        while(num !=0){
+            count ++;
+            num /=10;
+            System.out.println(num);
+        }
+        System.out.println(count + " 0's is how many digets of acuricy the double can hould"); 
+        return num;
+    }
+}
