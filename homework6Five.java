@@ -4,7 +4,7 @@ Max Scott
 this is a school project for numerical analysis, homewrok 6 part 5 
 ***the partitiond trapozoidal method for finding intargals*** 
 */
-public class homework6Five {
+public class trapezoidal method {
     public static void main(String[] args) {
         double a = 1.0;
         double b = 1.5;
